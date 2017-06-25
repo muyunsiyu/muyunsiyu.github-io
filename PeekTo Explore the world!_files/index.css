@@ -1,0 +1,278 @@
+@font-face {
+	font-family: Releway-ExtraBold;
+	src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+	font-family: Releway-Bold;
+	src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+	font-family: Raleway-Regular;
+	src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+	font-family: Raleway-Black;
+	src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+	font-family: Raleway-Medium;
+	src: url(../fonts/Raleway-Medium.ttf);
+}
+html {
+	background: rgb(255, 255, 255); line-height: 1.5; -ms-overflow-x: hidden; -ms-overflow-y: scroll; min-height: 100%; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; text-size-adjust: none;
+}
+body {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-family: Raleway-Regular;
+}
+.back {
+	background-position: top; top: 0px; width: 100%; height: 100%; position: absolute; background-image: url("../images/overlay.png"); background-size: cover;
+}
+.c-main {
+	background: rgb(244, 244, 244); width: 1280px; margin-right: auto; margin-left: auto; position: relative;
+}
+#c-wrapper {
+	background: rgb(244, 244, 244); width: 1280px; margin-right: auto; margin-left: auto; position: relative;
+}
+.t-center {
+	text-align: center;
+}
+.t-left {
+	text-align: left;
+}
+.clear {
+	clear: both;
+}
+#c-main {
+	top: 0px; position: absolute;
+}
+.s-home {
+	height: 1000px; position: relative; text-shadow: 1px 1px #000; background-size: cover;
+}
+#s-home1 {
+	background-image: url("../images/firecracker.jpg");
+}
+.s-home-title {
+	width: 66%; line-height: 80px; letter-spacing: 2.5px; padding-top: 260px; padding-left: 58px; font-family: Raleway-Black; font-size: 72px;
+}
+.s-home-desc {
+	width: 60%; line-height: 45px; letter-spacing: 1.25px; padding-top: 0px; padding-left: 58px; font-family: Raleway-Medium; font-size: 30px;
+}
+.s-home-signup {
+	width: 520px; text-align: center; padding-top: 30px; padding-left: 58px;
+}
+.s-home-signup a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.s-home-signup a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.s-home-signup a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.s-home-signup div {
+	line-height: 50px; letter-spacing: 0px; font-family: Raleway-Black; font-size: 36px;
+}
+.s-home-signup .s-home-btsignup {
+	background: rgb(102, 51, 153); border-radius: 100px; width: 270px; height: 50px; text-transform: uppercase; letter-spacing: 2px; font-family: Releway-Bold; font-size: 14px; margin-right: auto; margin-left: auto; cursor: pointer; text-shadow: none;
+}
+.down-arrow {
+	left: 50%; width: 43px; height: 28px; bottom: 30px; margin-left: -21px; position: absolute;
+}
+.s-about {
+	height: 695px; position: relative; background-size: cover;
+}
+#s-about1 {
+	background-image: url("../images/violine.jpg");
+}
+.s-about-title {
+	line-height: 50px; letter-spacing: 0px; font-family: Raleway-Black; font-size: 44px;
+}
+.s-about-desc {
+	text-transform: uppercase; letter-spacing: 1.75px; padding-top: 145px; font-family: Raleway-Medium; font-size: 14px;
+}
+.s-about-submain {
+	text-transform: uppercase; letter-spacing: 2px; padding-top: 30px; padding-bottom: 10px; font-family: Releway-Bold; font-size: 18px;
+}
+.s-about-subdesc {
+	line-height: 28px; letter-spacing: 0px; font-size: 16px; opacity: 0.9;
+}
+.row1 {
+	padding-top: 100px;
+}
+.col1 {
+	width: 55%; margin-right: auto; margin-left: auto;
+}
+.s-cta {
+	margin: auto; width: 500px;
+}
+.s-logo {
+	width: 104px; height: 104px; margin-top: 30px;
+}
+.s-cta-title {
+	color: rgb(47, 47, 47); line-height: 50px; letter-spacing: -0.24px; font-family: Raleway-Black; font-size: 44px;
+}
+.s-cta-desc {
+	color: rgb(116, 126, 128); line-height: 28px; letter-spacing: 0px; font-size: 18px;
+}
+.s-cta-desc1 {
+	color: rgb(116, 126, 128); line-height: 28px; letter-spacing: 0px; padding-bottom: 20px; font-size: 18px;
+}
+.s-cta-request {
+	border-radius: 100px; height: 50px; overflow: hidden; margin-top: 100px; box-shadow: 1px 14px 32px #aaa;
+}
+.s-cta-request input {
+	border: 0px currentColor !important; width: 54%; color: rgb(51, 51, 51); padding-left: 8%; font-size: 16px; margin-top: 15px; float: left; box-shadow: none !important;
+}
+.s-cta-request div {
+	background: rgb(102, 51, 153); width: 46%; height: 100%; text-transform: uppercase; letter-spacing: 2px; padding-top: 15px; font-family: Releway-Bold; font-size: 14px; float: right;
+}
+.c-main.cmobile {
+	display: none;
+}
+.cmobile#c-main {
+	display: block;
+}
+.cmobile .s-home {
+	background-image: url("../images/firecracker.jpg");
+}
+.cmobile .s-about {
+	background-image: url("../images/violine.jpg");
+}
+.cmobile .soverlay {
+	background-position: top; width: 100%; height: 100%; background-image: url("../images/overlay.png"); background-size: cover;
+}
+@media all and (min-width:1280px)
+{
+.s-home-title {
+	width: 700px;
+}
+.s-home-desc {
+	width: 560px;
+}
+.s-cta-desc {
+	margin: auto; width: 80%; letter-spacing: 1px;
+}
+}
+@media all and (max-width:1280px)
+{
+.c-main {
+	width: 100%;
+}
+#c-wrapper {
+	width: 100%;
+}
+.row .col-lg-4 {
+	width: 33.33%; float: left;
+}
+}
+@media all and (max-width:1024px) and (min-width:769px)
+{
+.s-home {
+	background-size: cover;
+}
+.s-home-title {
+	width: 600px; line-height: 60px; padding-top: 150px; padding-left: 20px; font-size: 54px;
+}
+.s-home-desc {
+	width: 460px; line-height: 30px; letter-spacing: 1px; padding-left: 20px; font-size: 24px;
+}
+}
+@media all and (max-width:768px)
+{
+.row .col-lg-4 {
+	width: 100%;
+}
+.s-home {
+	background-size: cover;
+}
+.s-home-title {
+	width: 380px; line-height: 60px; padding-top: 120px; padding-left: 20px; font-size: 54px;
+}
+.s-home-desc {
+	width: 380px; line-height: 30px; letter-spacing: 1px; padding-left: 20px; font-size: 24px;
+}
+.s-home-signup {
+	width: 360px; padding-left: 20px;
+}
+.s-home-signup div {
+	font-size: 30px;
+}
+.s-about-desc {
+	padding-top: 20px;
+}
+.row1 {
+	padding-top: 30px;
+}
+.col1 {
+	padding-bottom: 40px;
+}
+.s-about-submain {
+	padding-top: 10px;
+}
+.s-about {
+	height: auto;
+}
+}
+@media all and (max-width:666px)
+{
+.s-home {
+	background-size: cover;
+}
+.s-home-title {
+	width: 200px; line-height: 40px; letter-spacing: 1.2px; padding-top: 90px; font-size: 34px;
+}
+.s-home-desc {
+	width: 240px; line-height: 30px; padding-top: 20px; font-size: 20px;
+}
+.s-home-signup .s-home-btsignup {
+	font-size: 18px;
+}
+.s-home-signup div {
+	font-size: 26px;
+}
+.s-home-signup {
+	padding: 0px; left: 50%; width: 320px; bottom: 80px; margin-left: -160px; position: absolute;
+}
+.s-about-title {
+	font-size: 34px;
+}
+.s-cta {
+	width: 90%;
+}
+.s-cta-title {
+	font-size: 32px;
+}
+.s-cta-desc {
+	font-size: 18px;
+}
+.s-cta-desc1 {
+	font-size: 18px;
+}
+.s-cta-request {
+	height: auto; overflow: visible; margin-top: 30px; box-shadow: none;
+}
+.s-cta-request input {
+	margin: 30px auto auto; border-radius: 100px; width: 80% !important; height: 50px !important; float: none !important; box-shadow: 1px 10px 20px #aaa !important;
+}
+.s-cta-request div {
+	margin: 30px auto auto; border-radius: 100px; width: 80% !important; height: 50px !important; float: none !important; box-shadow: 1px 10px 20px #aaa !important;
+}
+}
+@media all and (max-width:530px)
+{
+.s-home {
+	background-position: 40%; background-size: cover;
+}
+.s-home-title {
+	width: 184px; line-height: 38px; padding-left: 10px; font-size: 32px;
+}
+.s-home-desc {
+	width: 200px; line-height: 24px; padding-top: 20px; padding-left: 10px; font-size: 18px;
+}
+.s-about-desc {
+	font-size: 14px;
+}
+.s-about-title {
+	font-size: 32px;
+}
+}
